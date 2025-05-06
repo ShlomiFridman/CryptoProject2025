@@ -1,0 +1,169 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="dg5urbYTmqW6ZuPWZVn8">
+    <mxGraphModel dx="911" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-1" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-2" value="Bob" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="10" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="580" y="120" width="10" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-6" value="get email from console" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="vcTLg_IDzQYBxWwtrujO-5" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="165" y="130" />
+              <mxPoint x="165" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-12" value="create symetric key" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="vcTLg_IDzQYBxWwtrujO-11" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="165" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-14" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="vcTLg_IDzQYBxWwtrujO-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="59.170000000000016" as="sourcePoint" />
+            <mxPoint x="460" y="59.170000000000016" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-8" value="request bob&#39;s public key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vcTLg_IDzQYBxWwtrujO-7">
+          <mxGeometry x="-0.0803" y="-3" relative="1" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="vcTLg_IDzQYBxWwtrujO-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="99.17000000000002" as="sourcePoint" />
+            <mxPoint x="20" y="99.17000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-10" value="bob&#39;s public key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vcTLg_IDzQYBxWwtrujO-9">
+          <mxGeometry x="-0.1962" y="-2" relative="1" as="geometry">
+            <mxPoint x="-43" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-13" value="McEliece algorithem" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vcTLg_IDzQYBxWwtrujO-14">
+          <mxGeometry x="175" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-29" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="720" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-30" value="Blowfish + ECDSA algorithems" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vcTLg_IDzQYBxWwtrujO-29">
+          <mxGeometry x="130" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-34" value="encrypt blowfish key with bob&#39;s public key" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="vcTLg_IDzQYBxWwtrujO-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="40" y="140" />
+            </Array>
+            <mxPoint x="15" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-35" value="sign message with ECDSA" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="vcTLg_IDzQYBxWwtrujO-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="40" y="190" />
+            </Array>
+            <mxPoint x="15" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="vcTLg_IDzQYBxWwtrujO-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-37" value="Sends encryped message + key to bob" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vcTLg_IDzQYBxWwtrujO-36">
+          <mxGeometry x="-0.0803" y="-3" relative="1" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vcTLg_IDzQYBxWwtrujO-29">
+          <mxGeometry x="460" y="300" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-41" value="verify ECDSA signature" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="vcTLg_IDzQYBxWwtrujO-40" parent="vcTLg_IDzQYBxWwtrujO-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="495" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-47" value="if" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="vcTLg_IDzQYBxWwtrujO-29">
+          <mxGeometry x="380" y="330" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-33" value="encrypt message with blowfish key" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="vcTLg_IDzQYBxWwtrujO-32" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="165" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="580" y="540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-39" value="decrypt key using bob&#39;s private key" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="vcTLg_IDzQYBxWwtrujO-38" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="615" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="860" as="sourcePoint" />
+            <mxPoint x="140" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-45" value="return reply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vcTLg_IDzQYBxWwtrujO-44">
+          <mxGeometry x="-0.1962" y="-2" relative="1" as="geometry">
+            <mxPoint x="-43" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-48" value="signature verified successfully" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="620" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-49" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="580" y="680" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTLg_IDzQYBxWwtrujO-50" value="decrypt message using decryped key" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="vcTLg_IDzQYBxWwtrujO-49" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="615" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
