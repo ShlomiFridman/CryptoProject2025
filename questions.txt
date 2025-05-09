@@ -1,0 +1,2 @@
+the blowfish algo we got can only encrypt 64 bit blocks
+so can we encrypt the data in blocks?

@@ -1,7 +1,7 @@
 email exchange: only address or body aswell?
 
 Blowfish:
-https://github.com/prathyuma-08/Email-Encryption-Blowfish/blob/master/blowfish.py
+https://github.com/ananya2407/Blowfish-Algorithm
 
 McEliece:
 https://github.com/jkrauze/mceliece/tree/master
