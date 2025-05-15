@@ -4,7 +4,7 @@ Blowfish:
 https://github.com/ananya2407/Blowfish-Algorithm
 
 McEliece:
-https://github.com/jkrauze/mceliece/tree/master
+https://github.com/elibtronic/pythonMCS
 
 EC DSA signature:
 https://dev.to/exemak/bitcoin-signatures-from-scratch-44-ecdsa-implementation-in-python-using-zero-dependencies-410c
