@@ -8,3 +8,7 @@ https://github.com/elibtronic/pythonMCS
 
 EC DSA signature:
 https://dev.to/exemak/bitcoin-signatures-from-scratch-44-ecdsa-implementation-in-python-using-zero-dependencies-410c
+
+
+presentation:
+https://docs.google.com/presentation/d/1nzQhe9q5B1sPRI5GloJjwKYMIHsXpS-FI15FxQLiLfQ/edit?usp=sharing
