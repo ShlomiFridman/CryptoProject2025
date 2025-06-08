@@ -12,3 +12,6 @@ https://dev.to/exemak/bitcoin-signatures-from-scratch-44-ecdsa-implementation-in
 
 presentation:
 https://docs.google.com/presentation/d/1nzQhe9q5B1sPRI5GloJjwKYMIHsXpS-FI15FxQLiLfQ/edit?usp=sharing
+
+report
+https://docs.google.com/document/d/1qtrVW75aDpqBx6eQ1DaNzVJxZ7nePLw8m73Zi_vvZCY/edit?usp=sharing
